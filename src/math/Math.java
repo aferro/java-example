@@ -1,4 +1,3 @@
-
 package math;
 
 /**
@@ -18,7 +17,7 @@ public class Math
     {
         if ((a < 0) || (b < 0))
         {
-            throw new IllegalArgumentException("Arguments must be >= 0");
+            throw new IllegalArgumentException("Arguments must be >= 0"); //uma linha muito grande que ultrapassa os 80 caracteres
         }
         return a + b;
     }
